@@ -3,8 +3,8 @@ def square_array(array)
   c = 0
   ret_arr = []
   while c < array.length do
-    array[c]=array[c]**2
+    ret_arr[c]=array[c]**2
     c+=1
   end
-    
+  ret_arr
 end
